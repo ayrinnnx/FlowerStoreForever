@@ -1,8 +1,6 @@
 package ua.edu.ucu.apps.lab74.flowers;
 
-import lombok.Getter;
-
-@Getter
-public abstract class  Item {
+public abstract class AbstractDecorator extends Item{
+    @Override
     public abstract double getPrice();
 }
