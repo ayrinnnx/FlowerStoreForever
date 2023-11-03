@@ -3,7 +3,7 @@ package ua.edu.ucu.apps.lab74.flowers;
 import lombok.Getter;
 
 @Getter
-public class FlowerPack {
+public class FlowerPack{
     private Flower flower;
     private int quantity;
 

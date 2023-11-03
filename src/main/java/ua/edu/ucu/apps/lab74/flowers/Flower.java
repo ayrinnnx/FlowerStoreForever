@@ -9,7 +9,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor @Getter
 @Entity
 @NoArgsConstructor
-public class Flower {
+public class Flower extends Item{
     @Id
     private int id;
     private double price;

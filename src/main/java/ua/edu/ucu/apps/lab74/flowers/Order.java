@@ -26,8 +26,8 @@ public class Order {
         delivery.deliver(items);
     }
 
-    public void addItem(Item item) {
-        this.items.add(item);
+    public void addItem(Flower cactus) {
+        this.items.add(cactus);
     }
 
     public void removeItem(Item item) {
