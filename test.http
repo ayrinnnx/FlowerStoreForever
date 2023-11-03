@@ -8,5 +8,6 @@ Content-Type: application/json
   "id": 2,
   "sepalLength": 80,
   "color": "BLUE",
-  "price": 139
+  "price": 139,
+  "flowerType": "ROMASHKA"
 }
