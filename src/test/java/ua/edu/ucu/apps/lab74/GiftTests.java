@@ -1,6 +1,7 @@
 package ua.edu.ucu.apps.lab74;
 
 import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
 
 import ua.edu.ucu.apps.lab74.flowers.Flower;
 import ua.edu.ucu.apps.lab74.flowers.FlowerColor;
@@ -10,6 +11,7 @@ import ua.edu.ucu.apps.lab74.flowers.Gift;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
+@SpringBootTest
 public class GiftTests {
 
     @Test
